@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    padding-top: 150px;
     position: sticky;
     top: 0;
     background-color: #ffbe45ab;
@@ -53,14 +52,15 @@ header {
     border-radius: 5px;
 }
 
+/* Adjusted main to add padding */
+main {
+    padding-top: 100px; /* Adjust this value to match the height of the header */
+}
+
 .dog-info {
-    max-width: 3000px;
-    max-height: 90vh; /* Example to ensure it doesn't exceed the viewport height */
+    max-width: 1200px;
     margin: auto;
-    position: fixed;
-    top: 10vh; /* Adjusted to give some top space */
-    left: 100px; 
-    right: 100px;
+    padding: 2rem;
     overflow-y: auto; /* Allow vertical scrolling */
 }
 
