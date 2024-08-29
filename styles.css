@@ -2,43 +2,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #ffbe45ab;
 }
 
 header {
     background-color: #343a40;
     color: #fff;
-    padding: 1.5em 0;
+    padding: 1em;
     text-align: center;
-    width: 100%;
 }
 
 .dog-info {
-    padding: 2em;
-    max-width: 80%; /* Increased width for wider screens */
-    margin: 2em auto; /* Added margin for spacing */
+    padding: 2em 5%;
+    margin: 0 auto;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: auto; /* Allows the container to span wider */
 }
 
 .dog-photo {
-    width: 100%;
+    width: 80%; /* Adjust width to be relative to container */
     height: auto;
     border-radius: 8px;
-    margin-bottom: 1.5em; /* Increased spacing */
+    margin-bottom: 1em;
 }
 
 button {
     background-color: #28a745;
     color: white;
     border: none;
-    padding: 12px 24px; /* Increased padding for a better button size */
+    padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 button:hover {
@@ -47,11 +45,9 @@ button:hover {
 
 .contact-info {
     margin-top: 2em;
-    padding: 1.5em;
+    padding: 1em;
     background-color: #e9ecef;
     border-radius: 8px;
-    max-width: 80%; /* Consistent width */
-    margin: 2em auto; /* Centered margin */
 }
 
 footer {
@@ -59,13 +55,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
     width: 100%;
     bottom: 0;
-}
-
-@media (min-width: 1200px) {
-    .dog-info, .contact-info {
-        max-width: 60%; /* Further widen content on larger screens */
-    }
+    margin-top: 2em; /* Adds spacing above footer */
+    position: relative; /* Makes the footer relative to avoid overlap */
 }
