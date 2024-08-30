@@ -65,11 +65,9 @@ main {
 }
 
 .dog-photo {
-    width: 80%; /* Adjust width to be relative to container */
-    height: auto;
     border-radius: 8px;
     margin-bottom: 1em;
-    max-height: 500px;
+    max-height: 40%;
 }
 
 button {
