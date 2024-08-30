@@ -66,17 +66,18 @@ main {
 
 .dog-photos {
     display: flex;
-    justify-content: space-around; /* Distributes images evenly */
-    flex-wrap: wrap; /* Ensures images wrap to the next line if necessary */
-    gap: 1.5rem; /* Adds space between images */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 1.5rem; /* Adds space between the images */
     margin-bottom: 2rem; /* Adds spacing below the image container */
 }
 
 .dog-photo {
-    width: 45%; /* Adjust width for side-by-side layout */
-    height: auto;
+    width: auto; /* Allows the image to maintain its aspect ratio */
+    height: 300px; /* Sets a fixed height, adjust as necessary */
     border-radius: 8px;
+    object-fit: cover; /* Ensures the image covers the specified height */
 }
+
 
 
 button {
