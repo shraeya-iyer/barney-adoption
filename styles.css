@@ -69,6 +69,7 @@ main {
     height: auto;
     border-radius: 8px;
     margin-bottom: 1em;
+    max-height: 500px;
 }
 
 button {
