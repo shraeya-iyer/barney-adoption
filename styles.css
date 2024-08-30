@@ -67,7 +67,8 @@ main {
 .dog-photo {
     border-radius: 8px;
     margin-bottom: 1em;
-    max-height: 40%;
+    width: auto;
+    height: auto;
 }
 
 button {
